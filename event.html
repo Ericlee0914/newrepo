@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events & News | BookDoc</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container flex justify-between items-center">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="contact-info flex items-center">
+                <span class="flex items-center gap-2"><i class="fas fa-phone-alt"></i> 017-500 0174</span>
+                <span class="divider">|</span>
+                <span class="flex items-center gap-2"><i class="fas fa-envelope"></i> edenfamilyclinic@gmail.com</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="main-header">
+        <div class="container flex justify-between items-center">
+            <div class="logo">
+                <a href="index.html" style="text-decoration:none;">
+                    <div class="bookdoc-logo" style="border-color: var(--primary-red);">
+                        <i class="fas fa-heartbeat text-red fa-2x"></i>
+                        <div class="logo-text">
+                            <span class="brand" style="color: var(--primary-red);">Klinik Eden</span>
+                            <span class="tagline">Family Clinic</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <nav>
+                <ul class="flex items-center gap-6">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">What We Offer <i class="fas fa-chevron-down"></i></a>
+                        <!-- Dropdown -->
+                        <div class="dropdown-menu">
+                            <a href="search.html" class="dropdown-item">Search & Book</a>
+                            <a href="teleconsult.html" class="dropdown-item">Teleconsult</a>
+                            <a href="activist.html" class="dropdown-item">Activist</a>
+                            <a href="#" class="dropdown-item">Marketplace</a>
+                            <a href="event.html" class="dropdown-item">Events & News</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Who We Serve <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Corporate</a>
+                            <a href="#" class="dropdown-item">Insurance</a>
+                            <a href="#" class="dropdown-item">Healthcare Providers</a>
+                            <a href="#" class="dropdown-item">Individuals</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Our Story</a>
+                            <a href="#" class="dropdown-item">Leadership</a>
+                            <a href="#" class="dropdown-item">Careers</a>
+                            <a href="#" class="dropdown-item">Contact Us</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="article.html" class="nav-link">Articles</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger-menu"><i class="fas fa-bars"></i></div>
+        </div>
+    </header>
+
+    <!-- Event Hero -->
+    <section class="event-hero">
+        <div class="container text-center">
+            <h1>用健康的体魄迎接春节！✨</h1>
+            <p>Eden Family Clinic 特别推出农历新年健康体检优惠配套，为您和家人的健康保驾护航。</p>
+        </div>
+    </section>
+
+    <!-- Event Details -->
+    <section class="event-details container">
+        <div class="event-intro text-center">
+            <p>无论您是需要基础的全面检查，还是更深层的健康评估，我们都有合适的选择。</p>
+        </div>
+
+        <div class="packages-grid">
+            <!-- Wellness Package -->
+            <div class="package-card wellness">
+                <div class="package-header">
+                    <h3>🌟 健康配套 (Wellness Package)</h3>
+                    <div class="price">现价 RM 308 <span
+                            style="font-size: 0.9rem; opacity: 0.8; text-decoration: line-through;">(原价: RM 408)</span>
+                    </div>
+                </div>
+                <div class="package-body">
+                    <p class="description">🩸超过 90 项血液及尿液检测，包括：</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> 全血细胞计数、肝/肾功能检查</li>
+                        <li><i class="fas fa-check-circle"></i> 胆固醇、糖尿病相关检查 (HbA1c)</li>
+                        <li><i class="fas fa-check-circle"></i> 全套肿瘤标志物 (肝、大肠、胰腺等)</li>
+                    </ul>
+                    <div class="free-items">
+                        <span class="badge">🆓️ 免费赠送</span> 心电图 (ECG) 及 超声波检查 (Ultrasound)！
+                    </div>
+                </div>
+            </div>
+
+            <!-- Premier Package -->
+            <div class="package-card premium">
+                <div class="package-header">
+                    <h3>💎 至尊配套 (Premier Package)</h3>
+                    <div class="price">现价 RM 588 <span
+                            style="font-size: 0.9rem; opacity: 0.8; text-decoration: line-through;">(原价: RM 788)</span>
+                    </div>
+                </div>
+                <div class="package-body">
+                    <p class="description">🩸 超过 105 项深度检测，除包含上述所有项目外，还增加：</p>
+                    <ul>
+                        <li><i class="fas fa-check-double"></i> <strong>包含所有健康配套项目，额外增加：</strong></li>
+                        <li><i class="fas fa-check-circle"></i> 感染性疾病筛查 (幽门螺杆菌、甲/乙型肝炎、梅毒、艾滋病毒)</li>
+                        <li><i class="fas fa-check-circle"></i> EB 病毒抗体检测</li>
+                        <li><i class="fas fa-check-circle"></i> 更多心脏相关标志物</li>
+                    </ul>
+                    <div class="free-items">
+                        <span class="badge">🆓️ 免费赠送</span> 心电图、超声波检查 以及 流感疫苗接种！💉
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Event Images -->
+        <div class="event-images">
+            <img src="event1.jpg" alt="CNY Health Promo 1">
+            <img src="event2.jpg" alt="CNY Health Promo 2">
+        </div>
+
+        <!-- Info & Call to Action -->
+        <div class="event-cta-section text-center">
+            <div class="promo-box">
+                <h3>🧧 趁着新春佳节来临之前</h3>
+                <p>赶快预约体检，送给家人和自己一份最珍贵的健康礼。🎊</p>
+                <div class="contact-details">
+                    <p><strong>📍 地址:</strong> 50, Jln BPU 6, Bandar Puchong Utama, 47100 Puchong</p>
+                    <p><strong>🕒 营业时间:</strong> 周一至周五 (8 AM – 7 PM) | 周六 (8 AM – 4 PM) | 周日 (休息)</p>
+                </div>
+                <a href="#" class="btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp 预约: 017-500 0174</a>
+                <p class="small-text mt-20">Caring for your health, 贴心守护您的健康</p>
+                <div class="hashtags">
+                    #edenfamilyclinic #puchong #nearme #healthscreening #vaccine
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-col brand-col">
+                <div class="footer-logo">
+                    <i class="fas fa-heartbeat"></i> Klinik Eden
+                </div>
+                <p>Klinik Eden Family Clinic is your best GP clinic in Puchong offering general medical consultations
+                    and more.</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>COMPANY</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>FOR INDIVIDUALS</h4>
+                <ul>
+                    <li><a href="search.html">Search and Book</a></li>
+                    <li><a href="teleconsult.html">Teleconsult</a></li>
+                    <li><a href="activist.html">Activist</a></li>
+                    <li><a href="event.html" class="highlight">Events & News</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>FOR PROVIDERS</h4>
+                <ul>
+                    <li><a href="#">List Your Services</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <div class="badges">
+                <span>ISO 27001</span> <span>MSC</span> <span>Secured by PositiveSSL</span>
+            </div>
+        </div>
+
+        <div class="copyright-bar">
+            <div class="container flex justify-between">
+                <span>© 2026 Klinik Eden Family Clinic. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
